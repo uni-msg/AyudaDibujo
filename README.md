@@ -37,7 +37,7 @@ Clona este repositorio y entra en la carpeta del proyecto:
 
 ```bash
 git clone https://github.com/tuusuario/sketch-tool.git
-cd sketch-tool
+cd AyudaDibujo
 ```
 
 Crea un entorno virtual (opcional pero recomendado):
