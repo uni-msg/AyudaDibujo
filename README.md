@@ -57,5 +57,5 @@ pip install opencv-python numpy pillow
 Ejecucion:
 
 ```bash
-python main.py
+python aplicacion.py
 ```
