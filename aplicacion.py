@@ -655,7 +655,6 @@ class ContourApp:
             contornos, _ = cv2.findContours(cerrada, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
             mascara = np.ones_like(gray)
             cv2.drawContours(mascara, contornos, -1, 255, thickness=cv2.FILLED)
-
             mascara_bgr = cv2.cvtColor(mascara, cv2.COLOR_GRAY2BGR)
 
             comparativa = np.hstack((img, mascara_bgr))
